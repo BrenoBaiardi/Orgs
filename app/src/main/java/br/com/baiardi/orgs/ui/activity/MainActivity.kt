@@ -1,16 +1,14 @@
 package br.com.baiardi.orgs.ui.activity
 
-import android.app.Activity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
-
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import br.com.baiardi.orgs.ListaProdutosAdapter
 import br.com.baiardi.orgs.R
 import br.com.baiardi.orgs.model.Produto
 import java.math.BigDecimal
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
